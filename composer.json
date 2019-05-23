@@ -8,8 +8,6 @@
         "email": "demolady.xin@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
-
   "require-dev": {
     "phpunit/phpunit": "^6.5",
     "monolog/monolog": "^1.24"
