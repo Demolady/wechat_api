@@ -1,0 +1,21 @@
+{
+  "name": "kwy/wechat",
+  "description": "wechat api for user-login,template-send and so on",
+  "type": "library",
+  "authors": [
+    {
+        "name": "Demolady",
+        "email": "demolady.xin@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+  },
+  "require": {
+  },
+  "autoload":{
+  },
+  "autoload-dev": {
+
+  }
+}
