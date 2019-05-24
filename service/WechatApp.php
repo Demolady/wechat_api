@@ -6,11 +6,12 @@
  * Time: 14:38
  */
 namespace kwy\wechat\service;
+use kwy\wechat\common\Request;
 use kwy\wechat\common\WechatApiUrl;
 
 class WechatApp
 {
-
+    use Request;
     private $appid;
 
     private $appsecret;
@@ -76,7 +77,7 @@ class WechatApp
         }else{
             $url = WechatApiUrl::APP_USER_LOGIN_URL;
         }
-        $ret = $this->createApiUrl($url);
+        $ret = $this->get($this->createApiUrl($url));
         return $ret;
     }
 
